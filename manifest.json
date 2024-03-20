@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Instagram Redirector",
+    "version": "1.0",
+    "description": "Redirects Instagram to a specified website.",
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "*://*.instagram.com/*"
+    ],
+    "background": {
+      "persistent": true,
+      "scripts": ["background.js"]
+    }
+  }
+  
+  
